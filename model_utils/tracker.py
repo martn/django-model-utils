@@ -91,6 +91,7 @@ class FieldInstanceTracker:
         self.instance = instance
         self.fields = fields
         self.field_map = field_map
+        self.saved_data = {}
 
     @property
     def deferred_fields(self):
